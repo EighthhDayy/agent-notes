@@ -27,3 +27,5 @@ Taking Claude Code as an example, most of the code in its Harness is devoted to 
 - **Circuit Breaker:** Automatically stopping retries when errors occur consecutively—just like a circuit breaker in a home electrical system trips during a short circuit to prevent the entire system from failing.
 
 - **Error Recovery Mechanisms:** Catching exceptions, rolling back to the previous stable state, retrying, or handing control back to a human.
+
+The industry is shifting from "being able to do things" to "being able to do things reliably." Harness engineering has therefore become a core competitive advantage of Agent systems.
