@@ -1,4 +1,4 @@
-Agent = LLM + Context + Tools
+** Agent = LLM + Context + Tools **
 
 
 LLM is the brain of an Agent: It is not merely a set of model parameters, but the entire decision-making core of the Agent—understanding intentions, reasoning and planning, and making judgments. Just as the human brain is more than a collection of neurons and also includes ways of thinking shaped by experience, an LLM's capabilities come from two sources: the world knowledge and language abilities acquired through pre-training, and the decision-making strategies established through post-training. 
