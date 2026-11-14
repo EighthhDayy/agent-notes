@@ -1,0 +1,9 @@
+# Core Principles for Building Effective Agents
+
+According to Anthropic's experience, successful Agent systems follow three core principles.
+
+**Keep It Simple.** Start with the simplest possible solution and add complexity only when absolutely necessary. Direct API calls are preferable to complex frameworks, and clear code is preferable to clever abstractions. This is because every additional layer of abstraction creates a new blind spot for future debugging.
+
+**Maintain Transparency.** Clearly display the Agent's planning steps, execution logs, and decision-making traces—this is not only for debugging convenience, but also a prerequisite for building user trust. Once an error occurs inside a black box, external observers can neither locate nor correct it.
+
+**Design Good Tool Interfaces (ACI, Agent-Computer Interface).** ACI emphasizes designing interfaces from the Agent's perspective (making them easy for the Agent to understand and use), rather than designing interfaces from the programmer's perspective as traditional APIs do. Tool names and parameters should be intuitive, and places where misuse is likely should be designed to prevent errors from occurring—for example, the missing corner of a SIM card ensures that the card can only be inserted into the slot in one direction, preventing users from inserting it backward; a microwave oven will not heat unless its door is properly closed, preventing users from opening the door while heating is in progress. This approach of "eliminating errors through design" has a specific term in manufacturing: **Poka-yoke (mistake-proofing)**, which originated from the Toyota Production System. Poorly designed tools can cause even powerful models to make frequent mistakes—because the interface itself is the only communication channel between the model and the tool, and ambiguous interfaces can be amplified by the model into systematic errors.
