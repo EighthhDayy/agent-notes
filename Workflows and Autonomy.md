@@ -1,4 +1,4 @@
-# 1.2.4 Orchestration Patterns: Workflows and Autonomy
+# Orchestration Patterns: Workflows and Autonomy
 
 Orchestration patterns define how the "context and tools" layer of the Harness is organized—they determine how context flows between LLM calls, how tools are scheduled, and whether the Agent's execution path is predefined or dynamically generated. The orchestration of Agent systems has evolved from simple to complex, with each pattern having its applicable scenarios and corresponding trade-offs. According to Anthropic's experience working with dozens of teams to build LLM Agents, the most successful implementations often do not use complex frameworks, but instead adopt simple, composable patterns.
 
