@@ -1,4 +1,4 @@
-#Workflow Pattern: Deterministic Orchestration
+# Workflow Pattern: Deterministic Orchestration
 
 A **Workflow** is a system that orchestrates LLMs and tools through predefined code paths. Its execution path is deterministic and designed in advance by developers—what to do at each step and where to go next are all hard-coded, while the LLM is only responsible for understanding and generation within each node.
 
